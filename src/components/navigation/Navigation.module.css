@@ -1,0 +1,21 @@
+.navigationContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: rgb(71, 103, 245);
+  padding: 10px 156px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.navLinkItem {
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: black;
+}
+.navLinkItem:hover {
+  color: rgb(193, 196, 11);
+}
+.active {
+  color: rgb(193, 196, 11);
+}
